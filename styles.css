@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer components {
+  .logo {
+    @apply font-prata text-white text-lg;
+  }
+
   .heading-h3 {
     @apply font-prata text-36 mt-7 mb-3 text-white;
   }
