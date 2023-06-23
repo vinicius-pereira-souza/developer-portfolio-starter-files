@@ -12,4 +12,8 @@
   .paragraph {
     @apply mb-7;
   }
+
+  .button {
+    @apply mt-3 text-black bg-yellow font-prata px-9 py-4;
+  }
 }
