@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  purge: {
+    enabled: true,
+    content: ["./src/**/*.{html,js}"],
+  },
   theme: {
     extend: {
       colors: {
@@ -21,6 +24,12 @@ module.exports = {
         27: "27px",
         49: "49px",
         73: "73px",
+      },
+      maxWidth: {
+        455: "455px",
+        565: "565px",
+        675: "675px",
+        1140: "1140px",
       },
     },
   },
