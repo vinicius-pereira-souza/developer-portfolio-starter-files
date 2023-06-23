@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "light-gray": "#75767A",
         "dark-gray": "#2E3038",
+        yellow: "#FBE850",
       },
       fontFamily: {
         prata: ["Prata", "serif"],
@@ -18,6 +19,7 @@ module.exports = {
       lineHeight: {
         12: "50px",
         27: "27px",
+        49: "49px",
         73: "73px",
       },
     },
